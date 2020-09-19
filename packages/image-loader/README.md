@@ -89,7 +89,7 @@ The following is a list of rules and their identifiers which can be overridden:
 
 | Name    | Description                                                                                                  | NODE_ENV |
 | ------- | ------------------------------------------------------------------------------------------------------------ | -------- |
-| `image` | Allows importing ICO, JPEG, PNG, GIF, SVG and WEBP files from modules. Contains a single loader named `url`. | all      |
+| `image` | Allows importing ICO, JPEG, PNG, GIF, SVG WEBP and AVIF files from modules. Contains a single loader named `url`. | all      |
 
 ## Contributing
 
