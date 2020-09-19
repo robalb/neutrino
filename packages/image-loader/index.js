@@ -14,7 +14,7 @@ module.exports = (options = {}) => (neutrino) => {
 
   neutrino.config.module
     .rule(ruleId)
-    .test(/\.(ico|png|jpg|jpeg|gif|svg|webp)(\?v=\d+\.\d+\.\d+)?$/)
+    .test(/\.(ico|png|jpg|jpeg|gif|svg|webp|avif)(\?v=\d+\.\d+\.\d+)?$/)
     .use('url')
     .loader(require.resolve('url-loader'))
     .options({ ...defaultOptions, ...options });
